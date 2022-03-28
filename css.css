@@ -6,6 +6,8 @@
 body {
     background: url(/1.jpg) no-repeat center center fixed;
     background-size: cover;
+    height: 1080px;
+    
 }
 .prof-img {
     margin-top: -80px;
@@ -54,12 +56,12 @@ h2 {
     margin-top: -56px;
     background-color: rgb(4, 49, 45);
 }
-a, b, c, d {
+e, b, c, d {
     font-size: 3rem;
     padding: 1rem;
     transition:all .1s ease-in;
 }
-a:hover, b:hover, c:hover, d:hover {
+e:hover, b:hover, c:hover, d:hover {
     transform: scale(1.6);
 }
 
@@ -79,6 +81,7 @@ a:hover, b:hover, c:hover, d:hover {
 .main {
     display: flex;
     width: 100vw;
+    
     justify-content: center;
 }
 
