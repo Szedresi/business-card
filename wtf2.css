@@ -1,0 +1,21 @@
+
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: rgba(128, 255, 0, 0.322);
+    grid
+}
+
+.left {
+    background-color:aqua;
+    height: 300px;
+}
+.center {
+
+    background-color: blueviolet;
+}
+.right {
+   
+    background-color: brown;
+}

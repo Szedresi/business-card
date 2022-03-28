@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.prof-img {
+    margin-top: -80px;
+    width: 160px;
+    height: 160px;
+    object-fit:cover;
+    border-radius: 50%;
+    transition: all .1s ease-in-out;
+}
+.prof-img:hover {
+    transform: scale(1.2);
+}
+p, h1, h2, a {
+    color: rgb(255, 157, 0); 
+}
+
+
+.profile {
+    width: 300px;
+    height: 230px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(4, 49, 45);
+    line-height: 1.2;
+}
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.abouth2 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+.about {
+    margin: 1.5rem;
+    font-size: 1.6rem;
+
+}
+
+
+.bottom  {
+    padding: 0.5rem;
+    text-align:center;
+    width: fit-content;
+    margin: auto;
+    margin-top: -56px;
+    background-color: rgb(4, 49, 45);
+}
+a, b, c, d {
+    font-size: 3rem;
+    padding: 1rem;
+    transition:all .1s ease-in;
+}
+a:hover, b:hover, c:hover, d:hover {
+    transform: scale(1.6);
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.486);
+}
+
+.card-container {
+    flex: 3 1 700px;
+    max-width: 700px;
+    background-color: rgba(226, 43, 43, 0.842);
+}
+
+.card {
+    max-width: 700px;
+    margin: 200px auto;
+    margin-bottom: 0;
+    background-color: rgba(9, 61, 0, 0.767);
+    border-radius: 1rem;
+    border: solid rgba(255, 255, 0, 0.911) 0.5rem;
+}
+
+.left, .right {
+    flex: 1 1 200px;
+    
+    background-color: coral;
+}
+.left-pic, .right-pic {
+    margin: 0 auto;
+    margin-top: 700px;
+}
+
+
+.uzu1, .uzu2 {
+    width: 50px;
+    animation: gecc 10s linear infinite;
+}
+@keyframes gecc {
+    100% {
+        transform: rotate(360deg);
+    }
+}
