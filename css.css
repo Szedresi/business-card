@@ -78,13 +78,12 @@ a:hover, b:hover, c:hover, d:hover {
 }
 .main {
     display: flex;
-    flex-wrap: wrap;
     width: 100vw;
     justify-content: center;
 }
 
 
-.left, .right {
+/*.left, .right {
     flex: 1 4;
     max-width: 500px;
     
